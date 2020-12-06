@@ -1,9 +1,111 @@
-body {
-    background-color: blue;
-    color: yellow;
+#header {
+    display:block;
+    position: relative;
+    left:1100px;
+    background-color: white;
+
 }
 
-p {
-    color: red;
-    font-size: 20px;
+.signin {
+    height: 35px;
+    width: 70px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3369e8;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+
 }
+
+#img {
+    align-content: center;
+}
+
+h5 {
+    display: inline;
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    border-radius:px;
+    border: 1px solid blue;
+    font-size 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#content {
+    height: 768px;
+    position: relative;
+    clear: both;
+}
+
+.search {
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font-family: Arial;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid green;
+}
+
+.search:hover {
+    background-color:#009939;
+    color: white;
+}
+
+.box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lucky {
+    height: 40px;
+    width: 140px;
+    background-color:#f2f2f2
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.lucky:hover {
+    border: 1 px solid #d8d8d8;
+    font-weight: bold;
+}
+#logo {
+    position: relative;
+    left: 475px;
+    top: 300px;
+    cursor:pointer;
+    
+}
+img.resize {
+    width: 400px;
+    height: auto;
+}
+#footer {
+    height: 50px;
+    background-color:#fafafa;
+    padding: 10px;
+}
+
+h6 {
+    display: inline;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+
