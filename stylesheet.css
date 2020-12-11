@@ -3,7 +3,6 @@
     position: relative;
     left:1100px;
     background-color: white;
-
 }
 
 .signin {
@@ -18,7 +17,6 @@
     color: white;
     cursor: pointer;
     margin: 10px;
-
 }
 
 #img {
@@ -27,6 +25,12 @@
 
 h5 {
     display: inline;
+}
+
+#content {
+    height: 768px;
+    position: relative;
+    clear: both;
 }
 
 input {
@@ -39,15 +43,9 @@ input {
     cursor: pointer;
 }
 
-#content {
-    height: 768px;
-    position: relative;
-    clear: both;
-}
-
 .search {
     cursor: pointer;
-    height: 40px;
+    height: 45px;
     width: 100px;
     font-family: Arial;
     font-size: 25px;
@@ -61,6 +59,14 @@ input {
 }
 
 .box {
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+    padding: 20px;
+
+}
+
+.two {
     text-align: center;
     margin-top: 20px;
 }
@@ -79,10 +85,11 @@ input {
     border: 1 px solid #d8d8d8;
     font-weight: bold;
 }
+
 #logo {
     position: relative;
     left: 475px;
-    top: 300px;
+    top: 200px;
     cursor:pointer;
     
 }
@@ -90,9 +97,10 @@ img.resize {
     width: 400px;
     height: auto;
 }
+
 #footer {
     height: 50px;
-    background-color:#fafafa;
+    background-color:#d6d2d2;
     padding: 10px;
 }
 
